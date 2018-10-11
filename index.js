@@ -3,9 +3,9 @@ const chalk = require('chalk');
 const clear = require('clear');
 const figlet = require('figlet');
 
-const files = require('./lib/github');
-const inquirer = require('./lib/repo');
-const github = require('./lib/files');
+const github = require('./lib/github');
+const repo = require('./lib/repo');
+const files = require('./lib/files');
 
 clear();
 console.log(
